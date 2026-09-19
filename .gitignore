@@ -1,0 +1,35 @@
+.venv/
+.idea/
+__pycache__/
+*.py[cod]
+
+# Photos, masks, plots, and other generated images
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tif
+*.tiff
+*.webp
+
+# Training datasets
+archive/BCSS/
+archive/BCSS_512/
+archive/gtruth_codes_512.tsv
+
+# Generated evaluation and prediction artifacts
+**/predictions/
+**/predictions_*/
+**/evaluation_results/
+**/evaluation_results_*/
+**/logs/
+ensemble_results/
+*.csv
+
+# Local application database files
+database/*.db
+database/*.db-*
+
+# Model weights are kept in Git LFS
+*.pth
+*.onnx

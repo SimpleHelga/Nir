@@ -1,0 +1,25 @@
+# Конфигурация виртуального окружения для проекта сегментации тканей
+# На Arch Linux
+
+# Для создания окружения:
+# python -m venv .venv
+
+# Для активации:
+# source .venv/bin/activate
+
+# Для установки зависимостей:
+# pip install -r requirements_arch.txt
+
+# Список всех необходимых пакетов
+PyQt6>=6.4.0
+numpy>=1.24.0
+opencv-python>=4.7.0
+Pillow>=9.5.0
+torch>=2.0.0
+torchvision>=0.15.0
+segmentation-models-pytorch>=0.3.2
+albumentations>=1.3.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+scikit-learn>=1.2.0
+tqdm>=4.65.0
